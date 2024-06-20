@@ -1,6 +1,6 @@
 package boardgame;
 
-public class Piece extends Board
+public class Piece
 {
 
     protected Position position;
@@ -8,7 +8,6 @@ public class Piece extends Board
 
     public Piece(Board board)
     {
-        super();
         this.board = board;
         position = null;
     }
