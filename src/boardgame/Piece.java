@@ -8,6 +8,7 @@ public class Piece extends Board
 
     public Piece(Board board)
     {
+        super();
         this.board = board;
         position = null;
     }
